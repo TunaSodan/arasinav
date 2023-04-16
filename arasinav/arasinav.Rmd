@@ -1,5 +1,5 @@
 ---
-title: "Çalışmanızın"
+title: "Sosyal Hayattan Memnuniyet Üzerine Bir Çalışma, İller Bazında Türkiye Örneği"
 author: 
   - Ahmet Tunahan SODAN[^1]
 bibliography: ../bibliography/biblio.bib
@@ -32,20 +32,17 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== NOTLAR ================================= -->
 <!-- ======================================================================= -->
-[^1]:18080460 
+[^1]:18080460, [Github Repo](https://github.com/TunaSodan/arasinav)
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
-
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
+Sosyal yaşam; modern insanın genel memnuniyet kriterlerinden birisidir. Sağlıklı bir sosyal yaşantı; bireylerin üzerlerinde hissettikleri yükün göreceli olarak azalmasına neden olur ki günümüz dünyasındaki karmaşık ilişkileri göz önünde bulundurursak hayati bir öneme sahip olduğu düşünülebilir. Sosyal yaşantının oluşumu ise sosyalleşme ile olur. Sosyalleşme, "toplumdaki mevcut ya da beklenen rolleri yerine getirmek için gerekli olan bilgi, beceri, değerler, eğilimler ve öz algıların benimsenmesi ya da gelişimi" olarak (@dinccer2014universite) tanımlanamaktadır. Bundan dolayıdır ki sosyal yaşantı bireyin 'tek' başına gerçekleştirdiği bir olgu değildir. Yaşadıkları şehrin ve vatandaşı olduları ülkenin hatta gelişen haberleşme araçları vasıtasıyla tüm dünyadaki bireylerin eylemleri bireyin sosyal yaşantısına etki etmektedir. Sosyal hayattan memnuniyet, insanların kendilerini mutlu ve tatmin hissetmelerini sağlar. İyi bir sosyal hayat, insanların hayatlarının kalitesini artırabilir ve yaşamdan daha fazla keyif almalarını sağlayabilir. İnsanlarla bütünleşmenin yegane unsurlarından birisi de elde ettikleri gelirdir (@karatacsouglu2016gelir). ŞÜphesiz kazanılmış becerilerin, kamudan veya özel sektörden alınacak hizmetlerin, bir işte çalışmanın sebeplerinden en önemlisinin, yapılacak aktivitelerin belirleyici unsuru bütçe kısıtıdır ve bu kısıtı oluşturan unsur 'gelir'dir. Türkiye'de sosyal hayatın memnuniyeti ile ilgili bir araştırma yapacağımız bu çalışmada irdeleyeceğimiz konular da yüksek oranda gelire bağlıdır. Örneğin bozulan sağlığı için devlet hizmeti alan bir bireyin gelirini harcayacak başka alanlara aktarması olumlu bir sonuç doğurmalıdır. Ancak bu hipotezin doğru çıkması için gelirini harcayabilecek başka alanlar var mıdır ve yeterli midir sorularını da sormamız gerekir. İnceleyeceğimiz veriler de bu yönde toplanmış ve Türkiye İstatistik Kurumu (_TÜİK_)'nun 2015 yılında topladığı '**İllere Göre Yaşam Endeksi** verileri kullanılmıştır. [_buradan verilere ulaşılabilirsiniz_](https://data.tuik.gov.tr/Search/Search?text=ya%C5%9Fam%20endeksi&dil=1) Çalışmamızda kullanılacak veriler yatay kesit verileridir ve bu verilerle **lineer regresyon analizi** gerçekleştirilecektir. Bağımlı değişken olarak _sosyal hayatından memnuniyet_ verileri, bağımsız değişkenler olarak ise _istihdam oranı_, _ortalama günlük kazanç_, _işinden memnuniyet oranı_, _sağlığından memnuniyet oranı_, _işsizlik oranı_, _Km2'ye düşen orman alanı_ alınacaktır. 
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Bu çalışmanın amacı giriş kısmında belirtilen olguların birbirleri üzerindeki etkilerinin araştırılması ve bu etkilerin güçlülük karşılaştırmasının yapılmasıdır. Görece basit bir analiz olduğu için gündelik yaşamlarında bu konularla alakalı karmaşık analzleri anlayamayacak olan insanlar için rehber özelliği taşıması amaçlanmıştır. Bu nedenle kullanılann dilin sadeliği gözetilmeye çalışılmıştır ve yapılacak analizlerin ayrıntılı açıklamaları yapılacaktır. Ayrıca her il için elimizdeki yeterli verilerle yapacağımız analizlerle bir '**il karşılaştırması**' da yapılması hedeflenmiştir. 
 
 ## Literatür 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Literatürde sosyal yaşantı memnuniyetini etkileyen etmenler ile ilgili çok sayıda araştırma mevcuttur. Gelir eşitsizliğinin suç işleme eğilimi üzerine etkisine (biz çalışmamızda suç olarak cinayet oranlarını alacağız) bakıldığı zaman @zungu2023twin'in yapmış olduğu istatiksel çalışma aynı yönde bir etkinin olduğunu ortaya koymuştur. Aynı makalede yine _işsizlik oranının da_ suç işleme eğilimiyle pozitif bir etkisi olduğu görülmüştür. Doğa ile olan ilişkiler de kişisel mutluluğa dolayısıyla da sosyal hayattan memnuniyete pozitif etkisi vardır. Milli parklar, mesire alanları, yürüyüş yolları sosyal aktivitelere imkan sağlayan yerlerdir. Dünyada "**Mutluluk Bakanlığı**" na sahip tek ülke olan Bhutan'da dağlarda ve ormanlarda yaşayan insanların doğaya uyumunun arttığı ve bu yönde bir sosyalleşme becerisi geliştirdikleri görülmüştür. (@sears2017forest). Mutlu insandan kastedilen ise psikologların yaptıkları tanım ile "duygusal olarak istikrarlı, yüksek sosyal oryantasyonu olan; sağlıklı, tatminkâr, sıcak bir sevgiye ve sosyal ilişkiye sahip, aktif bir yaşam tarzı ve anlamlı bir işi olan kişiler" kastedilmektedir.(@kangal2013mutluluk)
 
-**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
 
 \newpage
 # Kaynakça {#references}
