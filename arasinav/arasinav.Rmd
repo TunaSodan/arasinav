@@ -1,5 +1,5 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "Çalışmanızın"
 author: 
   - Ahmet Tunahan SODAN[^1]
 bibliography: ../bibliography/biblio.bib
